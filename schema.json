@@ -1,0 +1,204 @@
+{"Endpoints":{
+"getCustomers": {
+    "PrimaryEmailAddr": {
+      "value": {"Address": "Surf@Intuit.com"}, 
+      "schema": {
+        "type": "object",
+        "description": "The primary email address of the customer",
+        "allows_output_from": [],
+        "description_embedding": []
+      }
+    },
+    "SyncToken": {
+      "value": "0",
+      "schema": {
+        "type": "string",
+        "description": "The sync token for the customer",
+        "allows_output_from": [],
+        "description_embedding": []  
+      }
+    },
+    "domain": {
+      "value": "QBO",
+      "schema": {
+        "type": "string",
+        "description": "The domain of the customer",
+        "allows_output_from": [],
+        "description_embedding": []
+      }
+    },
+    "GivenName": {
+      "value": "Bill",
+      "schema": {
+        "type": "string",
+        "description": "The given name of the customer", 
+        "allows_output_from": [],
+        "description_embedding": []
+      }
+    },
+    "DisplayName": {
+      "value": "Bill's Windsurf Shop",
+      "schema": {
+        "type": "string",
+        "description": "The display name of the customer",
+        "allows_output_from": [],
+        "description_embedding": []
+      }
+    },
+    "BillWithParent": {
+      "value": false,
+      "schema": {
+        "type": "boolean",
+        "description": "Whether the customer bills with parent",
+        "allows_output_from": [],
+        "description_embedding": []
+      }
+    },
+    "FullyQualifiedName": {
+      "value": "Bill's Windsurf Shop",
+      "schema": {
+        "type": "string",
+        "description": "The fully qualified name of the customer",
+        "allows_output_from": [], 
+        "description_embedding": []
+      }
+    },
+    "CompanyName": {
+      "value": "Bill's Windsurf Shop",
+      "schema": {
+        "type": "string",
+        "description": "The company name of the customer",
+        "allows_output_from": [],
+        "description_embedding": []
+      }
+    },
+    "FamilyName": {
+      "value": "Lucchini",
+      "schema": {
+        "type": "string",
+        "description": "The family/last name of the customer",
+        "allows_output_from": [],
+        "description_embedding": []
+      }
+    },
+    "sparse": {
+      "value": false,
+      "schema": {
+        "type": "boolean",
+        "description": "Whether the customer is a sparse object",
+        "allows_output_from": [],
+        "description_embedding": []
+      }
+    },
+    "PrimaryPhone": {
+      "value": {"FreeFormNumber": "(415) 444-6538"},
+      "schema": {
+        "type": "object",
+        "description": "The primary phone number of the customer",
+        "allows_output_from": [],
+        "description_embedding": []
+      }
+    },
+    "Active": {
+      "value": true,
+      "schema": {
+        "type": "boolean",
+        "description": "Whether the customer is active",
+        "allows_output_from": [],
+        "description_embedding": []
+      }
+    },
+    "Job": {
+      "value": false, 
+      "schema": {
+        "type": "boolean",
+        "description": "Whether the customer is a job",
+        "allows_output_from": [],
+        "description_embedding": []
+      }
+    },
+    "BalanceWithJobs": {
+      "value": 85.0,
+      "schema": {
+        "type": "number",
+        "description": "The balance including jobs for the customer",
+        "allows_output_from": [],
+        "description_embedding": []
+      }
+    },
+    "BillAddr": {
+      "value": {
+        "City": "Half Moon Bay",
+        "Line1": "12 Ocean Dr.",
+        "PostalCode": "94213",
+        "Lat": "37.4307072",
+        "Long": "-122.4295234",
+        "CountrySubDivisionCode": "CA",
+        "Id": "3"
+      },
+      "schema": {
+        "type": "object",
+        "description": "The billing address of the customer",
+        "allows_output_from": [],
+        "description_embedding": []
+      }
+    },
+    "PreferredDeliveryMethod": {
+      "value": "Print",
+      "schema": {
+        "type": "string",
+        "description": "The preferred delivery method for the customer",
+        "allows_output_from": [],
+        "description_embedding": []
+      }
+    },
+    "Taxable": {
+      "value": false,
+      "schema": {
+        "type": "boolean",
+        "description": "Whether the customer is taxable",
+        "allows_output_from": [],
+        "description_embedding": []
+      }
+    },
+    "PrintOnCheckName": {
+      "value": "Bill's Windsurf Shop",
+      "schema": {
+        "type": "string",
+        "description": "The name to print on checks for the customer",
+        "allows_output_from": [],
+        "description_embedding": []
+      }
+    },
+    "Balance": {
+      "value": 85.0,
+      "schema": {
+        "type": "number",
+        "description": "The balance for the customer",
+        "allows_output_from": [],
+        "description_embedding": []
+      }
+    },
+    "Id": {
+      "value": "2",
+      "schema": {
+        "type": "string",
+        "description": "The ID of the customer",
+        "allows_output_from": [],
+        "description_embedding": []
+      }
+    },
+    "MetaData": {
+      "value": {
+        "CreateTime": "2014-09-11T16:49:28-07:00",
+        "LastUpdatedTime": "2014-09-18T12:56:01-07:00"
+      },
+      "schema": {
+        "type": "object", 
+        "description": "Meta data for the customer",
+        "allows_output_from": [],
+        "description_embedding": []
+      }
+    }
+  }
+}}
